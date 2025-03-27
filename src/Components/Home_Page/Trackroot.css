@@ -1,0 +1,29 @@
+.tab-buttoz {
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  left: 0;
+  padding: 4px 6px;
+  margin: auto;
+  font-weight: 500;
+  /* color: #272727; */
+  background: #dadadb;
+  text-align: center;
+  transition: all 0.2s ease-out;
+  border-radius: 6px;
+  /* border: 1px solid rgb(42, 130, 165); */
+}
+
+
+.tab-buttoz>* {
+  transition: all 0.2s ease-out;
+  margin: 1px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.track-head{
+  -webkit-box-shadow: 3px 10px 11px 0px rgba(135,135,135,0.29);
+-moz-box-shadow: 3px 10px 11px 0px rgba(135,135,135,0.29);
+box-shadow: 3px 10px 11px 0px rgba(135,135,135,0.29);
+}
