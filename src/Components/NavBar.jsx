@@ -49,87 +49,54 @@ const NavBar = () => {
 
                         </div>
 
-                        <div className="flex items-center justify-end gap-3">
-                            <a className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                                href="/login">Call Us</a>
-                            <a className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                                href="/login">Whatsapp  </a>
+                        <div className="flex  items-center justify-end gap-3">
+                            <div className="flex justify-center items-center gap-8 h-full">
+                                    <div className="bg-gradient-to-b from-gray-800/40 to-transparent p-[2px] rounded-[16px]" >
+                                        <button className="group p-[2px] rounded-[12px] bg-gradient-to-b from-gray-700 to-gray-600 shadow-[0_2px_4px_rgba(0,0,0,0.7)] hover:shadow-[0_4px_8px_rgba(0,0,0,0.6)] active:shadow-[0_0px_1px_rgba(0,0,0,0.8)] active:scale-[0.995] transition-all duration-200" >
+                                            <div className="bg-gradient-to-b from-gray-600 to-gray-700 rounded-[8px] px-3 py-1.5" >
+                                                <div className="flex gap-2 items-center">
+                                                    <span className="  text-white">Call Us now</span>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div className="flex justify-center items-center gap-8 h-full">
+                                    <div className="flex bg-gradient-to-b from-gray-800/40 to-transparent p-[2px] rounded-[16px]" >
+                                        <button className="group p-[2px] rounded-[12px] bg-gradient-to-b from-gray-700 to-gray-600 shadow-[0_2px_4px_rgba(0,0,0,0.7)] hover:shadow-[0_4px_8px_rgba(0,0,0,0.6)] active:shadow-[0_0px_1px_rgba(0,0,0,0.8)] active:scale-[0.995] transition-all duration-200" >
+                                            <div className="bg-gradient-to-b from-gray-600 to-gray-700 rounded-[8px] px-3 py-1.5" >
+                                                <div className="flex gap-2 items-center">
+                                                    <span className="  text-white">Whatsapp</span>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                            </div>
+
+                            {/* mobile navigation  */}
+
+                            <NavLink to="/Menu" className="block  md:hidden lg:hidden sm:block" >
+                                <label class="flex flex-col gap-2 w-8">
+                                    <input class="peer hidden" type="checkbox" />
+                                    <div
+                                        class="rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]"
+                                    ></div>
+                                    <div
+                                        class="rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45"
+                                    ></div>
+                                    <div
+                                        class="rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]"
+                                    ></div>
+                                </label>
+                            </NavLink>
                         </div>
+
                     </div>
                 </div>
             </header>
 
-            {/* Mobile navigation goes here  */}
-
-
-            <div className="fixed bottom-0 z-30 button-container visible md:invisible lg:invisible">
-                <button className="button block">
-                    <svg
-                        className="icon"
-                        stroke="currentColor"
-                        fill="currentColor"
-                        strokeWidth={0}
-                        viewBox="0 0 1024 1024"
-                        height="1em"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z" />
-                    </svg>
-                    <div className="">Home</div>
-                </button>
-                <button className="button">
-                    <svg
-                        className="icon"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeWidth={2}
-                        viewBox="0 0 24 24"
-                        aria-hidden="true"
-                        height="1em"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        />
-                    </svg>
-                </button>
-                <button className="button">
-                    <svg
-                        className="icon"
-                        stroke="currentColor"
-                        fill="currentColor"
-                        strokeWidth={0}
-                        viewBox="0 0 24 24"
-                        height="1em"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" />
-                    </svg>
-                </button>
-                <button className="button">
-                    <svg
-                        className="icon"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeWidth={2}
-                        viewBox="0 0 24 24"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        height="1em"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <circle cx={9} cy={21} r={1} />
-                        <circle cx={20} cy={21} r={1} />
-                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                    </svg>
-                </button>
-            </div>
         </>
 
     );

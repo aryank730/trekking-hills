@@ -11,7 +11,7 @@ import sign from '../../images/sign.png'
 function Chopta() {
   return (
     <div>
-      <section className="bg-gray-50 py-12 sm:py-12 lg:py-16 xl:py-20">
+      <section className="bg-gradient-to-tl from-[rgba(100,116,139,0.5)] to-[rgba(15,23,42,0.3)] rounded-md py-6 sm:py-8 lg:py-10 xl:py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center ">
             <h3 className=" text-xl font-bold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl ">
@@ -43,7 +43,7 @@ function Chopta() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Add your databases
                 </h3>
@@ -73,7 +73,7 @@ function Chopta() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Map your fields
                 </h3>
@@ -103,7 +103,7 @@ function Chopta() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Choose your domain
                 </h3>
@@ -129,7 +129,7 @@ function Chopta() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Get your blog
                 </h3>

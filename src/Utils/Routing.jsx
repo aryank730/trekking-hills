@@ -7,6 +7,7 @@ import Contact from '../Components/Contact';
 import Nagtibba from '../Components/Track/Nagtibba'
 import Kedarnath from '../Components/Track/Kedarnath'
 import Chopta from '../Components/Track/Chopta'
+import Menu from '../Components/Menu'
 
 function Routing() {
     return (
@@ -23,6 +24,8 @@ function Routing() {
                 <Route path="/about" element={<About />} />
                 <Route path='/galary' element={<Galary />} />
                 <Route path='/contact' element={<Contact />} />
+                <Route path='/Menu' element={<Menu />} />
+                
             </Routes>
 
         </>

@@ -11,9 +11,9 @@ import sign from '../../images/sign.png'
 function Nagtibba() {
   return (
     <div>
-      <section className="bg-gray-200 rounded-md py-6 sm:py-8 lg:py-10 xl:py-12">
+      <section className="bg-gradient-to-tl from-[rgba(100,116,139,0.5)] to-[rgba(15,23,42,0.3)] rounded-md py-6 sm:py-8 lg:py-10 xl:py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center ">
+          <div className="text-center ">
             <h3 className=" text-xl font-bold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl ">
               Start your Nagtibba Trekking in 4 easy steps
             </h3>
@@ -21,7 +21,7 @@ function Nagtibba() {
               Create your own blog with us and launch it with just 4 easy steps
             </p>
           </div>
-          <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+          <ul className=" mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
             <li className="flex-start group relative flex lg:flex-col">
               <span
                 className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
@@ -43,9 +43,9 @@ function Nagtibba() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                Dehradun to Sankri village
+                  Add your databases
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
                   Use your own Notion databases or duplicate ours.
@@ -73,7 +73,7 @@ function Nagtibba() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Map your fields
                 </h3>
@@ -82,7 +82,7 @@ function Nagtibba() {
                 </h4>
               </div>
             </li>
-            <li className="flex-start group relative flex lg:flex-col">
+            <li className=" flex-start group relative flex lg:flex-col">
               <span
                 className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
                 aria-hidden="true"
@@ -103,7 +103,7 @@ function Nagtibba() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Choose your domain
                 </h3>
@@ -129,7 +129,7 @@ function Nagtibba() {
                   />
                 </svg>
               </div>
-              <div className="ml-6 lg:ml-0 lg:mt-10">
+              <div className="ml-6 lg:ml-0 lg:mt-2">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                   Get your blog
                 </h3>
@@ -143,150 +143,157 @@ function Nagtibba() {
 
 
         <div className="p-10 ">
-                  <div className="relative max-w-7xl mx-auto">
-                    <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-                      <div className="flex-1 px-6 py-8 lg:p-12 ">
-                        <div className='block md:flex lg:flex'>
-                          <div>
-                            <h3 className="text-2xl font-extrabold  sm:text-3xl">
-                              Track to enjoy
-                            </h3>
-                            <p className="mt-6 text-base  sm:text-lg">
-                              Leave the Ludge and tension on the ground , because we provide...
-                            </p>
-                          </div>
-                          <div className=' flex flex-wrap justify-center items-center m-auto p-4 w-full gap-4'>
-                            <div className='space-y-2'>
-                              <img className='h-10' src={camping} alt="" />
-                              <img className='h-10' src={food} alt="" />
-                              </div>
-                              <div className='space-y-2'>
-                              <img className='h-10' src={bonfire} alt="" />
-                              <img className='h-10' src={music} alt="" />
-                              </div>
-                            <div className='space-y-2'>
-                              <img className='h-10' src={boots} alt="" />
-                              <img className='h-10' src={wc} alt="" />
-                            </div>
-                            <div className='space-y-2 block md:flex lg:block sm:flex' >
-                            <img className='h-10' src={skipoles} alt="" />
-                              <img className='h-10' src={sign} alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="mt-8">
-                          <div className="flex items-center">
-                            <div className="flex-1 border-t-2 border-gray-200" />
-                          </div>
-                          <ul
-                            role="list"
-                            className="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
-                          >
-                            <li className="flex items-start lg:col-span-1">
-                              <div className="flex-shrink-0">
-                                <svg
-                                  className="h-5 w-5 text-green-400"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clipRule="evenodd"
-                                  />
-                                </svg>
-                              </div>
-                              <p className="ml-3 ">Inspect Tailwind CSS websites</p>
-                            </li>
-                            <li className="flex items-start lg:col-span-1">
-                              <div className="flex-shrink-0">
-                                <svg
-                                  className="h-5 w-5 text-green-400"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clipRule="evenodd"
-                                  />
-                                </svg>
-                              </div>
-                              <p className="ml-3 ">Edit mode in real-time</p>
-                            </li>
-                            <li className="flex items-start lg:col-span-1">
-                              <div className="flex-shrink-0">
-                                <svg
-                                  className="h-5 w-5 text-green-400"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clipRule="evenodd"
-                                  />
-                                </svg>
-                              </div>
-                              <p className="ml-3 ">
-                                Copy utility classes right into your clipboard
-                              </p>
-                            </li>
-                            <li className="flex items-start lg:col-span-1">
-                              <div className="flex-shrink-0">
-                                <svg
-                                  className="h-5 w-5 text-green-400"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clipRule="evenodd"
-                                  />
-                                </svg>
-                              </div>
-                              <p className="ml-3 ">
-                                Free Chrome extension updates (Firefox coming soon)
-                              </p>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="py-8 px-6 text-center lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 bg-gray-700">
-                        <p className="text-lg leading-6 font-medium text-white">
-                          Pay once, own it forever
-                        </p>
-                        <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-white">
-                          <span>$19.99</span>
-                          <span className="ml-3 text-xl font-medium text-gray-50">USD</span>
-                        </div>
-                        <div className="mt-6">
-                          <div className="rounded-md shadow">
-                            <a
-                              href="#"
-                              className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600"
-                            >
-                              Buy now
-                            </a>
-                          </div>
-                          <p className="text-gray-300 text-sm mt-3">
-                            100% money back guarantee
-                          </p>
-                        </div>
-                      </div>
+          <div className="relative max-w-7xl mx-auto">
+            <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
+              <div className="flex-1 px-6 py-8 lg:p-12 ">
+                <div className='block md:flex lg:flex'>
+                  <div>
+                    <h3 className="text-2xl font-extrabold  sm:text-3xl">
+                      Track to enjoy
+                    </h3>
+                    <p className="mt-6 text-base  sm:text-lg">
+                      Leave the Ludge and tension on the ground , because we provide...
+                    </p>
+                  </div>
+                  <div className=' flex flex-wrap justify-center items-center m-auto p-4 w-full gap-4'>
+                    <div className='space-y-2'>
+                      <img className='h-10' src={camping} alt="" />
+                      <img className='h-10' src={food} alt="" />
+                    </div>
+                    <div className='space-y-2'>
+                      <img className='h-10' src={bonfire} alt="" />
+                      <img className='h-10' src={music} alt="" />
+                    </div>
+                    <div className='space-y-2'>
+                      <img className='h-10' src={boots} alt="" />
+                      <img className='h-10' src={wc} alt="" />
+                    </div>
+                    <div className='space-y-2 block md:flex lg:block sm:flex' >
+                      <img className='h-10' src={skipoles} alt="" />
+                      <img className='h-10' src={sign} alt="" />
                     </div>
                   </div>
                 </div>
-        
+                <div className="mt-8">
+                  <div className="flex items-center">
+                    <div className="flex-1 border-t-2 border-gray-200" />
+                  </div>
+                  <ul
+                    role="list"
+                    className="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
+                  >
+                    <li className="flex items-start lg:col-span-1">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-green-400"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 ">Inspect Tailwind CSS websites</p>
+                    </li>
+                    <li className="flex items-start lg:col-span-1">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-green-400"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 ">Edit mode in real-time</p>
+                    </li>
+                    <li className="flex items-start lg:col-span-1">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-green-400"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 ">
+                        Copy utility classes right into your clipboard
+                      </p>
+                    </li>
+                    <li className="flex items-start lg:col-span-1">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-green-400"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 ">
+                        Free Chrome extension updates (Firefox coming soon)
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="py-8 px-6 text-center lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 bg-gray-700">
+                <p className="text-lg text-left leading-6 font-medium text-white">
+                  
+
+                  <label  for="cars">Pick up me from ...</label><br />
+
+                  <select className='text-orange-500 outline-none ' id="cars">
+                    <option className='text-black' value="volvo">Dehradun</option>
+                    <option className='text-black' value="saab">Sankri village</option>
+                  </select>
+                </p>
+                <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-white">
+                  <span>$19.99</span>
+                  <span className="ml-3 text-xl font-medium text-gray-50">USD</span>
+                </div>
+                <div className="mt-6">
+                  <div className="rounded-md shadow">
+                    <a
+                      href="#"
+                      className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600"
+                    >
+                      Buy now
+                    </a>
+                  </div>
+                  <p className="text-gray-300 text-sm mt-3">
+                    Rupees per Head
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
 
     </div>
