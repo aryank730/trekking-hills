@@ -8,10 +8,12 @@ import Nagtibba from '../Components/Track/Nagtibba'
 import Kedarnath from '../Components/Track/Kedarnath'
 import Chopta from '../Components/Track/Chopta'
 import Menu from '../Components/Menu'
+import ScrollToTop from "./ScrollToTop";
 
 function Routing() {
     return (
         <>
+        <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} >
                     <Route path="/" element={<Navigate to="/Nagtibba" />} />
