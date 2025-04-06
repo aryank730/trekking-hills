@@ -6,7 +6,7 @@ import cleanenv from '../../images/Clean_env.jpg'
 function Trackroot() {
     return (
         <>
-            <div style={{ background: 'linear-gradient(180deg, rgba(0,0,0,0.5718662464985995) 0%, rgba(193,193,193,1)31%)', }}
+            <div id='kedarnathblog' style={{ background: 'linear-gradient(180deg, rgba(0,0,0,0.5718662464985995) 0%, rgba(193,193,193,1)31%)', }}
              className='tab-buttoz track-head sticky top-18 md:top-20 sm:top-18 z-10 flex gap-1 m-4 text-[12px] md:text-[14px] lg:text-[17px] '>
                 <NavLink
                     to="/Nagtibba"

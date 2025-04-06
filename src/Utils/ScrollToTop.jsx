@@ -5,10 +5,15 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", 
-    });
+    // Allow scroll to top only on top-level routes
+    const shouldScroll = ["/about", "/contact", "/galary", "/menu", "/"].includes(pathname.toLowerCase());
+
+    if (shouldScroll) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
   }, [pathname]);
 
   return null;
