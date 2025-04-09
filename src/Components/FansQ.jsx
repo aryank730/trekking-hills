@@ -9,38 +9,47 @@ const FAQ = () => {
 
   const sections = [
     {
-      title: "6.1 Introduction",
+      title: "Who Should Go for These Treks?",
       items: [
-        "1729, the Hardy-Ramanujan Number, is the smallest number that can be expressed as the sum of two cubes in two different ways: 1729=1³+12³=10³+9³."
+        "Are these treks beginner-friendly or suitable for experienced trekkers?",
+        "Is it safe for solo travelers or families with children?",
       ],
     },
     {
-      title: "6.2 Cubes",
+      title: "Trek Planning Questions",
       items: [
-        "A perfect cube (or cube number) is a number obtained by multiplying a number by itself three times (e.g., 1³=1, 2³=8, 3³=27).",
-        "Cubes of even numbers are even, and cubes of odd numbers are odd."
+        "What is the best time of year to visit Kedarnath, Nagtibba, or Chopta?",
+        "How should I prepare physically and mentally for the trek?",
       ],
     },
     {
-      title: "6.2.1 Some Interesting Patterns",
+      title: "Packing & Gear",
       items: [
-        "The sum of consecutive odd numbers can result in a perfect cube (e.g., 1³=1, 3+5=2³, 7+9+11=3³).",
-        "There is a pattern relating the difference of consecutive cubes and their product (e.g., n³ - (n-1)³ = 1 + n * (n-1) * 3).",
-        "In the prime factorisation of a perfect cube, each prime factor appears three times."
+        "What essential items should I carry for a Himalayan trek?",
+        "Do I need special trekking gear or equipment for these routes?"
       ],
     },
     {
-      title: "6.2.2 Smallest Multiple that is a Perfect Cube",
+      title: "Travel & Accessibility",
       items: [
-        "To find the smallest multiple of a number to make it a perfect cube, look at its prime factorisation. Multiply by the missing prime factors needed to complete groups of three.",
-        "To find the smallest number to divide a number by to make it a perfect cube, look at its prime factorisation. Divide by any prime factors that don't appear in groups of three."
+        "How do I reach the base camps of these treks?",
+        "Are there local guides or porters available for hire?",
+      ],
+    },
+    {
+      title: "Budget & Accommodation",
+      items: [
+        "What is the approximate cost of the entire trek including stay and food?",
+        "Are there affordable homestays or campsites along the trek route?"
       ],
     }
   ];
+  
+  
 
   return (
     <div className="container mx-auto my-12 px-8">
-      <h2 className="text-center text-3xl font-bold mb-8">Cubes and Cube Roots - Key Points</h2>
+      <h2 className="text-center text-3xl font-bold mb-8">I know, you have questions like...</h2>
       <div className="space-y-4">
         {sections.map((section, index) => (
           <div 
