@@ -71,6 +71,13 @@ function Menu() {
                                         }}>About</NavLink>
                                     </li>
 
+                                    <li className="flex gap-2">
+                                        <SiInformatica className="w-6 h-6" />
+                                        <NavLink to="/contact" className={({ isActive }) => {
+                                            return isActive ? "text-orange-600" : "text-slate-900";
+                                        }}>Contact</NavLink>
+                                    </li>
+
                                     {/* frst sub links goes here   */}
 
                                     {/* <li>
